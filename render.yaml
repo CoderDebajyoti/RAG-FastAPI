@@ -1,0 +1,10 @@
+services:                  # List of services you want to deploy
+  - type: web              # A web service (since FastAPI runs a web API)
+    name: rag-fastapi      # Service name (you'll see this in Render dashboard & URL)
+    env: python            # The runtime environment is Python
+    plan: free             # Render's "free" plan (limited resources)
+    buildCommand: pip install -r requirements.txt   # How to install dependencies
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000   # Start FastAPI server
+    envVars:
+      - key: GOOGLE_API_KEY
+        value: your_real_gemini_key_here
