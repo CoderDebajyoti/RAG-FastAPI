@@ -1,0 +1,5 @@
+Papun Roy is a good teacher.
+FastAPI is a modern Python framework for building APIs.
+Render.com is a cloud platform for deploying and scaling apps.
+Gemini is a large language model family developed by Google DeepMind.
+FAISS is a similarity search library developed by Facebook AI Research.
