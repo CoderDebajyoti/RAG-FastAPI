@@ -7,4 +7,4 @@ services:                  # List of services you want to deploy
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000   # Start FastAPI server
     envVars:
       - key: GOOGLE_API_KEY
-        value: your_real_gemini_key_here
+        value: AIzaSyAwgs9fVEC8y-VsL59mGe8hUepJjCWEtmo
